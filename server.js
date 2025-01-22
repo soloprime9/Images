@@ -8,7 +8,7 @@ const fs = require("fs");
 const mime = require("mime-types");
 
 app.use(cors ({
-    origin: "https://downloads-zeta.vercel.app/"
+    origin: "https://downloads-nine.vercel.app"
 }))
 
 
