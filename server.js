@@ -19,7 +19,9 @@ const path = require('path');
 // Serve static files
 app.use('/static', express.static(path.join(__dirname, 'static')));
 
-
+app.get("/", (req, res) => {
+    res.send("Download Images Easily");
+});
 
 app.post('/search', async (req, res) => {
     try {
