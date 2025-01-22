@@ -74,7 +74,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: 'downloads-nine.vercel.app', // Replace with your actual frontend URL
+  origin: 'https://downloads-nine.vercel.app', // Replace with your actual frontend URL
 }));
 
 app.use(express.json());
